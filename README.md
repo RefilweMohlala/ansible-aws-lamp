@@ -39,15 +39,7 @@ Run the Ansible playbook to set up the LAMP stack on your EC2 instance:
 - Install Apache, MySQL, and PHP.
 - Deploy a basic PHP site to the /var/www/html directory.
 - Ensure that Apache and MySQL are running and the website is accessible.
-
-# Project Structure
-  ansible-aws-lamp/
-│
-├── lamp_playbook.yml       # Main Ansible playbook to set up the LAMP stack
-├── inventory.ini           # Ansible inventory file with EC2 instance details
-├── README.md               # This file
-├── index.php               # Simple PHP website file
-├── ansible.cfg             # Optional Ansible configuration file 
+ 
 
 
 
